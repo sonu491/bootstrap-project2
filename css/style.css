@@ -60,3 +60,63 @@
     margin-bottom: 40px;
     line-height: 30px;
 }
+.fe-section-item{
+    background: #f9f9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fe-section-item:hover{
+    background-color: #0095da;
+    color: #fff;
+}
+.fe-section{
+    padding-bottom: 50px;
+}
+.form-outer{
+    margin-top: 50px;
+}
+.form-outer input{
+    height: 45px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+}
+.form-outer textarea{
+    height: 195px;
+    margin-bottom: 30px;
+}
+.form-outer button{
+    border-radius: 15px;
+    padding: 7px 30px;
+}
+.form-outer button .fa{
+    transition: 1s;
+}
+.form-outer button:hover .fa{
+    transform: translate(20px);
+}
+footer{
+    background: #000;
+    padding: 100px 0px;
+}
+footer h5{
+    color: #fff;
+    margin-bottom: 40px;
+}
+footer p{
+    color: #fff;
+}
+footer form input{
+    border-radius: 0px !important;
+    width: 50% !important;
+    background-color: #000 !important;
+    border-right: 0px !important;
+}
+footer form button{
+    border-radius: 0px !important;
+}
+.s-links i{
+    color: #fff;
+    margin-right: 20px;
+}
